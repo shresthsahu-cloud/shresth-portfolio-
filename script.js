@@ -7,6 +7,7 @@ const projects = [
 { image: "rtx-4060-vs-5070.png", title: "RTX 4060 vs RTX 5070", category: "TECH / GPU" },
 { image: "perfect-morning-routine.png", title: "The Perfect Morning Routine", category: "LIFESTYLE" },
 { image: "roblox-end.png", title: "The End...?", category: "GAMING / ENTERTAINMENT" }
+];
 
 const gallery = document.querySelector("#gallery");
 const lightbox = document.querySelector("#lightbox");
