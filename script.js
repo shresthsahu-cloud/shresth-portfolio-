@@ -2,12 +2,11 @@
 // To add a new thumbnail, copy its image into /images and add one object below.
 // You do NOT need to change the rest of the website.
 const projects = [
-  { image: "images/macbook-vs-rog.png", title: "MacBook Pro vs ROG G14", category: "TECH / COMPARISON" },
-  { image: "images/4k-oled-240hz.png", title: "4K OLED 240Hz", category: "TECH / DISPLAY" },
-  { image: "images/rtx-4060-vs-5070.png", title: "RTX 4060 vs RTX 5070", category: "TECH / GPU" },
-  { image: "images/perfect-morning-routine.png", title: "The Perfect Morning Routine", category: "LIFESTYLE" },
-  { image: "images/roblox-end.png", title: "The End...?", category: "GAMING / ENTERTAINMENT" }
-];
+ { image: "macbook-vs-rog.png", title: "MacBook Pro vs ROG G14", category: "TECH / COMPARISON" },
+{ image: "4k-oled-240hz.png", title: "4K OLED 240Hz", category: "TECH / DISPLAY" },
+{ image: "rtx-4060-vs-5070.png", title: "RTX 4060 vs RTX 5070", category: "TECH / GPU" },
+{ image: "perfect-morning-routine.png", title: "The Perfect Morning Routine", category: "LIFESTYLE" },
+{ image: "roblox-end.png", title: "The End...?", category: "GAMING / ENTERTAINMENT" }
 
 const gallery = document.querySelector("#gallery");
 const lightbox = document.querySelector("#lightbox");
